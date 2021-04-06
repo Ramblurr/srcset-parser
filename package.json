@@ -1,0 +1,13 @@
+{
+	"name": "srcset-parser",
+	"version": "0.0.1",
+	"description": "Wraps sindresorhus/srcset to provide cli tool for parsing srcsets",
+	"author": "Casey Link",
+	"license": "GPLv3+",
+	"bin": {
+		"srcset-parser": "./srcset-parser"
+	},
+	"dependencies": {
+		"srcset": ""
+	}
+}

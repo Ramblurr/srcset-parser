@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const srcset = require('srcset');
+const data = process.argv[2]
+const parsed = srcset.parse(data);
+console.log(JSON.stringify(parsed))
